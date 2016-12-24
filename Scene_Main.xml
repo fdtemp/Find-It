@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Name>Main</Name>
+  <BrickXAmount>16</BrickXAmount>
+  <BrickYAmount>12</BrickYAmount>
+  <BrickDefine>
+    <Item Key="1">808metal</Item>
+    <Item Key="2">809wall</Item>
+    <Item Key="3">810stone</Item>
+    <Item Key="4">811earth</Item>
+  </BrickDefine>
+  <BrickMap>+1113213213211232+1312313231213213+1313211232321131+   111222333    +   1 12 23 3    +   111222333    +                +                +4441 12 23 34444+4441112223334444+4444444444444444+4444444444444444</BrickMap>
+  <Stages>
+    <Item Key="Main">
+      <Events>
+        <Item Kind="CreateMenu" Key="showinfo">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <MenuName>Story</MenuName>
+        </Item>
+        <Item Kind="ShowInfo" Key="story">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+        </Item>
+        <Item Kind="CreatePlayer" Key="cp">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>0</x>
+            <y>4</y>
+          </Position>
+          <PlayerKind>NPC</PlayerKind>
+        </Item>
+        <Item Kind="DestroyPlayer" Key="DestoryPlayer">
+          <Active>False</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+        </Item>
+        <Item Kind="SceneSwitch" Key="SwitchScene">
+          <Active>False</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <SceneName>808_1</SceneName>
+          <StartPosition>
+            <x>0</x>
+            <y>3</y>
+          </StartPosition>
+        </Item>
+        <Item Kind="CreateNPC" Key="c1">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>4</x>
+            <y>7</y>
+          </Position>
+          <NPCKind>PM</NPCKind>
+        </Item>
+        <Item Kind="CreatePlayer" Key="cp1">
+          <Active>False</Active>
+          <DelayTime>0.5</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>4</x>
+            <y>3</y>
+          </Position>
+          <PlayerKind>PM</PlayerKind>
+        </Item>
+        <Item Kind="WakeUpEvents" Key="wue1">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="PlayerInSceneRegion">
+            <Start>
+              <x>4</x>
+              <y>3</y>
+            </Start>
+            <End>
+              <x>4</x>
+              <y>3</y>
+            </End>
+          </Condition>
+          <ActiveTime>0</ActiveTime>
+          <EventNames>
+            <Item>DestoryPlayer</Item>
+            <Item>cp1</Item>
+            <Item>SwitchScene</Item>
+          </EventNames>
+        </Item>
+        <Item Kind="CreateNPC" Key="c2">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>7</x>
+            <y>7</y>
+          </Position>
+          <NPCKind>Designer</NPCKind>
+        </Item>
+        <Item Kind="CreatePlayer" Key="cp2">
+          <Active>False</Active>
+          <DelayTime>0.5</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>7</x>
+            <y>3</y>
+          </Position>
+          <PlayerKind>Designer</PlayerKind>
+        </Item>
+        <Item Kind="WakeUpEvents" Key="wue2">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="PlayerInSceneRegion">
+            <Start>
+              <x>7</x>
+              <y>3</y>
+            </Start>
+            <End>
+              <x>7</x>
+              <y>3</y>
+            </End>
+          </Condition>
+          <ActiveTime>0</ActiveTime>
+          <EventNames>
+            <Item>DestoryPlayer</Item>
+            <Item>cp2</Item>
+            <Item>SwitchScene</Item>
+          </EventNames>
+        </Item>
+        <Item Kind="CreateNPC" Key="c3">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>10</x>
+            <y>7</y>
+          </Position>
+          <NPCKind>Coder</NPCKind>
+        </Item>
+        <Item Kind="CreatePlayer" Key="cp3">
+          <Active>False</Active>
+          <DelayTime>0.5</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>10</x>
+            <y>3</y>
+          </Position>
+          <PlayerKind>Coder</PlayerKind>
+        </Item>
+        <Item Kind="WakeUpEvents" Key="wue3">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="PlayerInSceneRegion">
+            <Start>
+              <x>10</x>
+              <y>3</y>
+            </Start>
+            <End>
+              <x>10</x>
+              <y>3</y>
+            </End>
+          </Condition>
+          <ActiveTime>0</ActiveTime>
+          <EventNames>
+            <Item>DestoryPlayer</Item>
+            <Item>cp3</Item>
+            <Item>SwitchScene</Item>
+          </EventNames>
+        </Item>
+      </Events>
+    </Item>
+  </Stages>
+  <BGImagePath>809\bg.png</BGImagePath>
+  <BGImageWidth>1280</BGImageWidth>
+  <BGImageHeight>960</BGImageHeight>
+</Root>

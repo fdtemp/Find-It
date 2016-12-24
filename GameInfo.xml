@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <ScenePaths>
+    <Item>Scene_Main.xml</Item>
+    <Item>Scene_808_1.xml</Item>
+    <Item>Scene_808_2.xml</Item>
+    <Item>Scene_809_1.xml</Item>
+    <Item>Scene_810_1.xml</Item>
+    <Item>Scene_811_1.xml</Item>
+  </ScenePaths>
+  <BrickPath>Bricks.xml</BrickPath>
+  <LivingPath>Livings.xml</LivingPath>
+  <MenuPath>Menus.xml</MenuPath>
+</Root>

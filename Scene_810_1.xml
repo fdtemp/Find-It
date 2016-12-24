@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Name>810_1</Name>
+  <BrickXAmount>16</BrickXAmount>
+  <BrickYAmount>12</BrickYAmount>
+  <BrickDefine>
+    <Item Key="0">810stone</Item>
+    <Item Key="1">810doorleftbot0</Item>
+    <Item Key="2">810doorrightbot0</Item>
+    <Item Key="3">810doorlefttop0</Item>
+    <Item Key="4">810doorrighttop0</Item>
+  </BrickDefine>
+  <BrickMap>+                +    00000000    +     00000000   +   0000000      +                +                +                +              34+   00000000   12+0000000000000000+0000000000000000+0000000000000000</BrickMap>
+  <Stages>
+    <Item Key="Main">
+      <Events>
+        <Item Kind="CreateMonster" Key="cm1">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>15</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m1</MonsterName>
+          <MonsterKind>Devil</MonsterKind>
+        </Item>
+        <Item Kind="CreateMonster" Key="cm2">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>13</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m2</MonsterName>
+          <MonsterKind>Devil</MonsterKind>
+        </Item>
+        <Item Kind="CreateMonster" Key="cm3">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>11</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m3</MonsterName>
+          <MonsterKind>Devil</MonsterKind>
+        </Item>
+        <Item Kind="CreateMenu" Key="gift">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="AllMonsterIsKilled" />
+          <ActiveTime>0</ActiveTime>
+          <MenuName>810Succ</MenuName>
+        </Item>
+        <Item Kind="WakeUpEvents" Key="wue">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="And">
+            <A Kind="PlayerInSceneRegion">
+              <Start>
+                <x>14</x>
+                <y>3</y>
+              </Start>
+              <End>
+                <x>15</x>
+                <y>4</y>
+              </End>
+            </A>
+            <B Kind="AllMonsterIsKilled" />
+          </Condition>
+          <ActiveTime>0</ActiveTime>
+          <EventNames>
+            <Item>trans1</Item>
+            <Item>trans2</Item>
+            <Item>trans3</Item>
+            <Item>trans4</Item>
+            <Item>ss</Item>
+          </EventNames>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans1">
+          <Active>False</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>14</x>
+            <y>3</y>
+          </Position>
+          <BrickKind>810doorleftbot1</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans2">
+          <Active>False</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>15</x>
+            <y>3</y>
+          </Position>
+          <BrickKind>810doorrightbot1</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans3">
+          <Active>False</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>14</x>
+            <y>4</y>
+          </Position>
+          <BrickKind>810doorlefttop1</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans4">
+          <Active>False</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>15</x>
+            <y>4</y>
+          </Position>
+          <BrickKind>810doorrighttop1</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="SceneSwitch" Key="ss">
+          <Active>False</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <SceneName>811_1</SceneName>
+          <StartPosition>
+            <x>1</x>
+            <y>4</y>
+          </StartPosition>
+        </Item>
+      </Events>
+    </Item>
+  </Stages>
+  <BGImagePath>810\bg.png</BGImagePath>
+  <BGImageWidth>1280</BGImageWidth>
+  <BGImageHeight>960</BGImageHeight>
+</Root>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Name>808_1</Name>
+  <BrickXAmount>16</BrickXAmount>
+  <BrickYAmount>12</BrickYAmount>
+  <BrickDefine>
+    <Item Key="0">808metal</Item>
+    <Item Key="1">808chain</Item>
+    <Item Key="2">808bush</Item>
+    <Item Key="3">808star</Item>
+    <Item Key="4">808cloud1</Item>
+    <Item Key="5">808cloud2</Item>
+    <Item Key="6">808nail</Item>
+  </BrickDefine>
+  <BrickMap>+         3   11 +  3          11 +           3 1  +     3       1  +   5         1  +           4    +                +                +     22     2   +0000000000000000+000001 000100100+0000000  0000100</BrickMap>
+  <Stages>
+    <Item Key="Main">
+      <Events>
+        <Item Kind="CreateMonster" Key="cm1">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>15</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m1</MonsterName>
+          <MonsterKind>Dragon</MonsterKind>
+        </Item>
+        <Item Kind="SceneSwitch" Key="ss">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="PlayerInSceneRegion">
+            <Start>
+              <x>15</x>
+              <y>3</y>
+            </Start>
+            <End>
+              <x>15</x>
+              <y>11</y>
+            </End>
+          </Condition>
+          <ActiveTime>0</ActiveTime>
+          <SceneName>808_2</SceneName>
+          <StartPosition>
+            <x>1</x>
+            <y>3</y>
+          </StartPosition>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star1_0">
+          <Active>False</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>2</x>
+            <y>10</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star2_0">
+          <Active>False</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>5</x>
+            <y>8</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star3_0">
+          <Active>False</Active>
+          <DelayTime>0.5</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>11</x>
+            <y>9</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star4_0">
+          <Active>False</Active>
+          <DelayTime>0.9</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>9</x>
+            <y>11</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star1_1">
+          <Active>False</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>2</x>
+            <y>10</y>
+          </Position>
+          <BrickKind>808star</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star2_1">
+          <Active>False</Active>
+          <DelayTime>1.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>5</x>
+            <y>8</y>
+          </Position>
+          <BrickKind>808star</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star3_1">
+          <Active>False</Active>
+          <DelayTime>1.5</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>11</x>
+            <y>9</y>
+          </Position>
+          <BrickKind>808star</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="Star4_1">
+          <Active>False</Active>
+          <DelayTime>1.9</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>9</x>
+            <y>11</y>
+          </Position>
+          <BrickKind>808star</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="WakeUpEvents" Key="StarRefresh">
+          <Active>True</Active>
+          <DelayTime>2.5</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <EventNames>
+            <Item>Star1_0</Item>
+            <Item>Star2_0</Item>
+            <Item>Star3_0</Item>
+            <Item>Star4_0</Item>
+            <Item>Star1_1</Item>
+            <Item>Star2_1</Item>
+            <Item>Star3_1</Item>
+            <Item>Star4_1</Item>
+            <Item>StarRefresh</Item>
+            <Item>ss</Item>
+          </EventNames>
+        </Item>
+      </Events>
+    </Item>
+  </Stages>
+  <BGImagePath>808\bg.png</BGImagePath>
+  <BGImageWidth>1280</BGImageWidth>
+  <BGImageHeight>960</BGImageHeight>
+</Root>

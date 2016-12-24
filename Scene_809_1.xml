@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Name>809_1</Name>
+  <BrickXAmount>16</BrickXAmount>
+  <BrickYAmount>12</BrickYAmount>
+  <BrickDefine>
+    <Item Key="0">809wall</Item>
+    <Item Key="1">809earth1</Item>
+    <Item Key="2">809earth2</Item>
+    <Item Key="3">809earth3</Item>
+    <Item Key="4">809transleft0</Item>
+    <Item Key="5">809transright0</Item>
+  </BrickDefine>
+  <BrickMap>+                +                +                +                +                +                +                +                +              45+      1111111111+1111112222222222+3333333333333333</BrickMap>
+  <Stages>
+    <Item Key="Main">
+      <Events>
+        <Item Kind="CreateMonster" Key="cm1">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>15</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m1</MonsterName>
+          <MonsterKind>Devil</MonsterKind>
+        </Item>
+        <Item Kind="CreateMonster" Key="cm2">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>12</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m2</MonsterName>
+          <MonsterKind>Devil</MonsterKind>
+        </Item>
+        <Item Kind="CreateMenu" Key="gift">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="AllMonsterIsKilled" />
+          <ActiveTime>0</ActiveTime>
+          <MenuName>809Succ</MenuName>
+        </Item>
+        <Item Kind="WakeUpEvents" Key="wue">
+          <Active>True</Active>
+          <DelayTime>0</DelayTime>
+          <Condition Kind="And">
+            <A Kind="PlayerInSceneRegion">
+              <Start>
+                <x>14</x>
+                <y>3</y>
+              </Start>
+              <End>
+                <x>15</x>
+                <y>3</y>
+              </End>
+            </A>
+            <B Kind="AllMonsterIsKilled" />
+          </Condition>
+          <ActiveTime>0</ActiveTime>
+          <EventNames>
+            <Item>trans1</Item>
+            <Item>trans2</Item>
+            <Item>ss</Item>
+          </EventNames>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans1">
+          <Active>False</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>14</x>
+            <y>3</y>
+          </Position>
+          <BrickKind>809transleft1</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans2">
+          <Active>False</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>15</x>
+            <y>3</y>
+          </Position>
+          <BrickKind>809transright1</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="SceneSwitch" Key="ss">
+          <Active>False</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <SceneName>810_1</SceneName>
+          <StartPosition>
+            <x>0</x>
+            <y>3</y>
+          </StartPosition>
+        </Item>
+      </Events>
+    </Item>
+  </Stages>
+  <BGImagePath>809\bg.png</BGImagePath>
+  <BGImageWidth>1280</BGImageWidth>
+  <BGImageHeight>960</BGImageHeight>
+</Root>

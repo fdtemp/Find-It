@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Item Key="808bush">
+    <Length>80</Length>
+    <ImagePath>808\bush.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="808chain">
+    <Length>80</Length>
+    <ImagePath>808\chain.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="808cloud1">
+    <Length>80</Length>
+    <ImagePath>808\cloud1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="808cloud2">
+    <Length>80</Length>
+    <ImagePath>808\cloud2.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="808metal">
+    <Length>80</Length>
+    <ImagePath>808\metal.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="808nail">
+    <Length>80</Length>
+    <ImagePath>808\nail.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="808star">
+    <Length>80</Length>
+    <ImagePath>808\star.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809wall">
+    <Length>80</Length>
+    <ImagePath>809\wall.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809transleft0">
+    <Length>80</Length>
+    <ImagePath>809\transleft0.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809transright0">
+    <Length>80</Length>
+    <ImagePath>809\transright0.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809transleft1">
+    <Length>80</Length>
+    <ImagePath>809\transleft1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809transright1">
+    <Length>80</Length>
+    <ImagePath>809\transright1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809earth1">
+    <Length>80</Length>
+    <ImagePath>809\earth1.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809earth2">
+    <Length>80</Length>
+    <ImagePath>809\earth2.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="809earth3">
+    <Length>80</Length>
+    <ImagePath>809\earth3.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810stone">
+    <Length>80</Length>
+    <ImagePath>810\stone.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorleftbot0">
+    <Length>80</Length>
+    <ImagePath>810\doorleftbot0.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorrightbot0">
+    <Length>80</Length>
+    <ImagePath>810\doorrightbot0.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorlefttop0">
+    <Length>80</Length>
+    <ImagePath>810\doorlefttop0.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorrighttop0">
+    <Length>80</Length>
+    <ImagePath>810\doorrighttop0.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorleftbot1">
+    <Length>80</Length>
+    <ImagePath>810\doorleftbot1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorrightbot1">
+    <Length>80</Length>
+    <ImagePath>810\doorrightbot1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorlefttop1">
+    <Length>80</Length>
+    <ImagePath>810\doorlefttop1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810doorrighttop1">
+    <Length>80</Length>
+    <ImagePath>810\doorrighttop1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810transleftbot">
+    <Length>80</Length>
+    <ImagePath>810\transleftbot.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810transrightbot">
+    <Length>80</Length>
+    <ImagePath>810\transrightbot.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810translefttop">
+    <Length>80</Length>
+    <ImagePath>810\translefttop.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="810transrighttop">
+    <Length>80</Length>
+    <ImagePath>810\transrighttop.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811cloud1">
+    <Length>80</Length>
+    <ImagePath>811\cloud1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811cloud2">
+    <Length>80</Length>
+    <ImagePath>811\cloud2.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811cloud3">
+    <Length>80</Length>
+    <ImagePath>811\cloud3.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811cloud4">
+    <Length>80</Length>
+    <ImagePath>811\cloud4.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811earth">
+    <Length>80</Length>
+    <ImagePath>811\earth.png</ImagePath>
+    <CollideRegion>
+      <x1>0.5</x1>
+      <y1>0.5</y1>
+      <x2>1</x2>
+      <y2>1</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811moon">
+    <Length>80</Length>
+    <ImagePath>811\moon.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811moun1">
+    <Length>80</Length>
+    <ImagePath>811\moun1.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+  <Item Key="811moun2">
+    <Length>80</Length>
+    <ImagePath>811\moun2.png</ImagePath>
+    <CollideRegion>
+      <x1>0</x1>
+      <y1>0</y1>
+      <x2>0</x2>
+      <y2>0</y2>
+    </CollideRegion>
+  </Item>
+</Root>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Name>811_1</Name>
+  <BrickXAmount>16</BrickXAmount>
+  <BrickYAmount>12</BrickYAmount>
+  <BrickDefine>
+    <Item Key="0">811earth</Item>
+    <Item Key="1">811cloud1</Item>
+    <Item Key="2">811cloud2</Item>
+    <Item Key="3">811cloud3</Item>
+    <Item Key="4">811cloud4</Item>
+    <Item Key="5">811moon</Item>
+    <Item Key="6">810transleftbot</Item>
+    <Item Key="7">810transrightbot</Item>
+    <Item Key="8">810translefttop</Item>
+    <Item Key="9">810transrighttop</Item>
+  </BrickDefine>
+  <BrickMap>+      1         +  5 3      4    +  1   4   1     +     2       1  +   2      3     +             3  +      4         + 89             + 67             +                +0000000000000000+0000000000000000</BrickMap>
+  <Stages>
+    <Item Key="Main">
+      <Events>
+        <Item Kind="CreateMonster" Key="cm1">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>15</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m1</MonsterName>
+          <MonsterKind>Devil</MonsterKind>
+        </Item>
+        <Item Kind="CreateMonster" Key="cm2">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>13</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m2</MonsterName>
+          <MonsterKind>Devil</MonsterKind>
+        </Item>
+        <Item Kind="CreateMonster" Key="cm3">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>11</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m3</MonsterName>
+          <MonsterKind>Ghost</MonsterKind>
+        </Item>
+        <Item Kind="CreateMonster" Key="cm4">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>9</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m4</MonsterName>
+          <MonsterKind>Ghost</MonsterKind>
+        </Item>
+        <Item Kind="CreateMonster" Key="cm5">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0</ActiveTime>
+          <Position>
+            <x>7</x>
+            <y>5</y>
+          </Position>
+          <MonsterName>m5</MonsterName>
+          <MonsterKind>Ghost</MonsterKind>
+        </Item>
+        <Item Kind="CreateMenu" Key="gift">
+          <Active>True</Active>
+          <DelayTime>1</DelayTime>
+          <Condition Kind="AllMonsterIsKilled" />
+          <ActiveTime>0</ActiveTime>
+          <MenuName>811Succ</MenuName>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans1">
+          <Active>True</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>1</x>
+            <y>3</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans2">
+          <Active>True</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>2</x>
+            <y>3</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans3">
+          <Active>True</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>1</x>
+            <y>4</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+        <Item Kind="BrickSwitch" Key="trans4">
+          <Active>True</Active>
+          <DelayTime>0.1</DelayTime>
+          <Condition Kind="Always" />
+          <ActiveTime>0.5</ActiveTime>
+          <Position>
+            <x>2</x>
+            <y>4</y>
+          </Position>
+          <BrickKind>null</BrickKind>
+          <SwitchTime>0.5</SwitchTime>
+        </Item>
+      </Events>
+    </Item>
+  </Stages>
+  <BGImagePath>811\bg.png</BGImagePath>
+  <BGImageWidth>1280</BGImageWidth>
+  <BGImageHeight>960</BGImageHeight>
+</Root>
